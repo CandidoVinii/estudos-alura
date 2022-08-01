@@ -1,0 +1,15 @@
+# utilizando docker sample e expondo ele a uma porta
+
+docker run -d -P dockersamples/static-site
+
+# vendo a porta usada 
+
+docker port 221f4698a8be
+
+# apagando container
+
+docker rm 221f4698a8be
+
+# expor na porta que eu quero
+
+docker run -d -p 8080:80 dockersamples/static-site
