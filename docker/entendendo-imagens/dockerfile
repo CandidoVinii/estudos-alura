@@ -1,0 +1,11 @@
+# ver imagens
+
+docker images && docker images ls
+
+# ver informação sobre a imagem 
+
+docker inspect id
+
+# comando para ver as camadas de uma imagem 
+
+docker history id
